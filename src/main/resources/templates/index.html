@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/common :: head('Hello, Spring Boot!')">
+</head>
+<body>
+<body class="d-flex flex-column h-100">
+
+<header th:replace="fragments/common :: menu('home')">
+</header>
+
+<!-- Begin page content -->
+<main class="flex-shrink-0">
+    <div class="starter-template">
+        <h1 class="mt-5">Spring Boot Tutorial</h1>
+        <p class="lead">Spring Boot을 이용해 웹 페이지 제작<br>
+            Spring Security, JPA를 이용해 보안 설정과 데이터 다루기</p>
+    </div>
+</main>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
